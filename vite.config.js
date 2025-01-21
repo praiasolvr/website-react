@@ -12,7 +12,7 @@ export default defineConfig({
   server: {
     cors: {
       // the origin you will be accessing via browser
-      origin: ['https://viacao-praiasol.netlify.app/','http://10.10.11.89:5173/*'],
+      origin: 'https://viacao-praiasol.netlify.app/*',
     },
   },
   build: {
